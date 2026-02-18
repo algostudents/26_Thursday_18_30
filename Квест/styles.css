@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.images{
+    width: 50%;     
+}
+
+.first, .second, .lose, .win {
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.button {
+    background-color: rgb(74, 9, 114);
+    color:aliceblue;
+    width: auto;
+    padding: 6px;
+    height: 20px;
+    text-decoration: none;
+    border-radius: 7px;
+    margin:10px 100px 10px 100px;
+}
+
+.buttons {
+    background-color: rgb(113, 133, 116);
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.text {
+    border-radius: 5px;
+    border: 2px solid rgb(75, 118, 101);
+}
