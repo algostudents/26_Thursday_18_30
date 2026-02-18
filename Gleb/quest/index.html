@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en_US">
+    <head>
+        <meta charset="UTF-8">
+        <title>Задание</title>
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+        <div class="first" id="first">
+            <h1>Побег из замка</h1>
+            <img class="images" src="./images/first.png">
+            <p>Готовы начать?</p>
+            <div class="buttons">
+                <a href="#second" class="button">Начать</a>
+            </div>
+        </div >
+
+        <div class="second" id="second">
+            <img class="images" src="./images/second.png">
+            <div class="text">
+                <p>Ты попал в страшный замок. перед тобой 2 двери:</p>
+                <p>Одна черная, а вторая белая.</p>
+                <p>За тобой гонятся рыцари. Какую дверь выберешь?</p>
+            </div>
+            <div class="buttons">
+                <a href="#win" class="button">Черная</a>
+                <a href="#lose" class="button">Белая</a>
+            </div>
+        </div>
+
+        <div class="lose" id="lose">
+            <img class="images" src="./images/lose.png">
+            <div class="text">
+                <p>За белой дверью стоят 3 рыцаря. Тебя поймали и посадили в темницу</p>
+                <p>Ты проиграл!</p>
+            </div>
+            <div class="buttons">
+                <a href="#first" class="button">В начало</a>
+            </div>
+        </div>
+
+        <div class="win" id="win">
+            <img class="images" src="./images/win.png">
+            <div class="text">
+                <p>За черной дверью сокровище.</p>
+                <p>Ты взял сокровище и сбежал!</p>
+            </div>
+            <div class="buttons">
+                <a href="#first" class="button">В начало</a>
+            </div>
+        </div>
+    </body>
+</html>
