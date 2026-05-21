@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>О нас</title>
+    <link  rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <header>
+        <img class="logo" src="images/logo.png"/>
+        <div class="navigation">
+            <a href="catalog.html">Каталог</a>
+            <a href="about.html">О нас</a> 
+        </div>   
+    </header>
+
+    <!-- Баннер -->
+    <section class="hero" id="home">
+        <h1>Свобода на <span>двух колесах</span></h1>
+        <p>Найди свой идеальный байк среди сотен лучших предложений от мировых брендов</p>
+        <a href="catalog.html" class="btn">Открыть каталог</a>
+    </section>
+
+    <!-- Каталог мотоциклов -->
+    <main class="container" id="catalog">
+        <h2 class="section-title">Популярные модели</h2>
+        <div class="grid">
+            
+            <!-- Карточка 1 -->
+            <div class="motocard">
+                <img src="unsplash.com" alt="Спортбайк" class="card-img">
+                <div class="card-content">
+                    <h3 class="card-title">Apex Tracker 1000</h3>
+                    <div class="card-price">950 000 ₽</div>
+                    <ul class="card-features">
+                        <li>⚡ Объем: 998 куб. см</li>
+                        <li>🔥 Мощность: 200 л.с.</li>
+                        <li>🛣️ Тип: Спортбайк</li>
+                    </ul>
+                    <button class="btn" style="width:100%;">Купить</button>
+                </div>
+            </div>
+
+            <!-- Карточка 2 -->
+            <div class="motocard">
+                <img src="unsplash.com" alt="Круизер" class="card-img">
+                <div class="card-content">
+                    <h3 class="card-title">Street Cruiser V-Twin</h3>
+                    <div class="card-price">1 200 000 ₽</div>
+                    <ul class="card-features">
+                        <li>⚡ Объем: 1600 куб. см</li>
+                        <li>🔥 Мощность: 95 л.с.</li>
+                        <li>🛣️ Тип: Круизер</li>
+                    </ul>
+                    <button class="btn" style="width:100%;">Купить</button>
+                </div>
+            </div>
+
+            <!-- Карточка 3 -->
+            <div class="motocard">
+                <img src="unsplash.com" alt="Эндуро" class="card-img">
+                <div class="card-content">
+                    <h3 class="card-title">Forest Nomad 450</h3>
+                    <div class="card-price">680 000 ₽</div>
+                    <ul class="card-features">
+                        <li>⚡ Объем: 450 куб. см</li>
+                        <li>🔥 Мощность: 45 л.с.</li>
+                        <li>🛣️ Тип: Эндуро / Внедорожный</li>
+                    </ul>
+                    <button class="btn" style="width:100%;">Купить</button>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Форма обратной связи -->
+    <section class="contact-section" id="contacts">
+        <h2 class="section-title">Оставить заявку</h2>
+        <p style="margin-bottom: 20px; color: #aaa;">Заполните форму, и наш менеджер свяжется с вами для подбора байка</p>
+        <form class="contact-form" action="#" method="POST">
+            <input type="text" placeholder="Ваше имя" required>
+            <input type="tel" placeholder="Номер телефона" required>
+            <textarea placeholder="Какая модель вас интересует?" rows="4"></textarea>
+            <button type="submit" class="btn">Отправить</button>
+        </form>
+    </section>
+
+    <!-- Подвал -->
+    <footer>
+        <p>2026 MotoZone. Все права защищены. Дизайн интернет-магазина.</p>
+    </footer>
+
+</body>
+</html>
